@@ -1,0 +1,26 @@
+version: 1.0
+api-version: 1.16
+name: RainbowEssentials
+main: me.colorbomb.rainbowessentials.Main
+
+author: Colorbomb
+description: Essential features for any server
+
+commands:
+  gamemode:
+    description: Changes the gamemode of the player
+    aliases: [gm]
+  heal:
+    description: Heals the player
+  feed:
+    description: Feeds the player
+  god:
+    description: Makes the player invincible
+  repair:
+    description: Repairs the item in the players hand
+  fly:
+    description: Allows the player to fly
+  top:
+    description: Teleports the player to the top block at their location
+  givesupertool:
+    description: Test
